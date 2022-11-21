@@ -1,0 +1,13 @@
+{
+    "name": "solito-expo-router",
+    "private": true,
+    "workspaces": [
+      "components",
+      "next-app"
+    ],
+    "scripts": {
+        "native": "cd expo-app && expo start",
+        "web": "cd next-app && yarn next",
+        "storybook": "cd components && yarn storybook"
+      }
+}
