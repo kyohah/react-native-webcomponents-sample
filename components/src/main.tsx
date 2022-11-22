@@ -5,5 +5,5 @@ interface Props {
   text: string
 }
 
-const Greeting = ({ text }: Props) => <RNButton text={text} onPress={() => console.log('MyButton')}/>
-register(Greeting, 'x-greeting', ['text']);
+const RNButtonMapper = ({ text }: Props) => <RNButton text={text} onPress={() => console.log('MyButton')}/>
+register(RNButtonMapper, 'rn-button', ['text']);
